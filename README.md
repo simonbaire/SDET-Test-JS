@@ -8,9 +8,9 @@ Chrome version 66 or higher
 
 ## Usage
 
-In order to run these locally make sure you have performed the following:
+In order to run these locall make sure you have performed the following:
 
 ```bash
-$ npm install
+$ npm install from root directory
 $ npm run test from root directory
 ```
