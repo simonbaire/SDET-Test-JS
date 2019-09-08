@@ -1,3 +1,5 @@
 testoutput/
 node_modules/
 .idea/
+failedTestScreenshot/
+package-lock.json
