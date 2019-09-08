@@ -1,0 +1,26 @@
+{
+  "name": "virgin-holidays-test",
+  "version": "1.0.0",
+  "description": "e2e project framework to get started",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js ./tests"
+  },
+  "author": "Simon Baire",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/cucumber": "4.0.4",
+    "@types/fs-extra": "^5.0.4",
+    "@types/make-dir": "1.0.3",
+    "@types/node": "8.10.7",
+    "@types/selenium-webdriver": "3.0.8",
+    "chromedriver": "2.41.0",
+    "geckodriver": "1.12.2",
+    "fs-extra": "7.0.0",
+    "ts-node": "4.1.0",
+    "typescript": "2.6.2",
+    "chai": "^4.0.2",
+    "cucumber": "5.0.1",
+    "make-dir": "^1.0.0",
+    "selenium-webdriver": "3.6.0"
+  }
+}
