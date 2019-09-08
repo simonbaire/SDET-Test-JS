@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Framework using webdriverjs along side cucumberjs and chai",
   "scripts": {
-    "cucumber": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js"
   },
   "author": "Simon Baire",
   "devDependencies": {

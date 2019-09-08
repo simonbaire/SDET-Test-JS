@@ -12,5 +12,5 @@ In order to run these locally make sure you have performed the following:
 
 ```bash
 $ npm install
-$ npm run cucumber from root directory
+$ npm run test from root directory
 ```
