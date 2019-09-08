@@ -1,7 +1,7 @@
 {
   "name": "SDET-Test-JS",
   "version": "1.0.0",
-  "description": "e2e project framework to get started",
+  "description": "Framework using webdriverjs along side cucumberjs and chai",
   "scripts": {
     "cucumber": "./node_modules/.bin/cucumber-js"
   },

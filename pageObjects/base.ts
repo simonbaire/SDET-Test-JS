@@ -35,6 +35,7 @@ export class BasePageObject extends WebdriverUtils {
   }
 
   selectDestination = async () => {
+    await this.waitUntilElementLoadedAndDisplayed(this.destinationList)
     const suggestedItems = await this.findElements(this.destinationList)
     await suggestedItems[0].click();
   }
