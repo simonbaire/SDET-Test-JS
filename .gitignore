@@ -1,5 +1,3 @@
 testoutput/
 node_modules/
-.cache
-dist
-.env
+.idea/
