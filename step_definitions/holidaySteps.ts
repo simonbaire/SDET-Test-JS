@@ -40,5 +40,5 @@ When(/^I add a holiday to a hotlist$/, async function (this: World) {
 });
 
 Then(/^I can see that a holiday added to the hotlist on top of the page$/, async function (this: World) {
-  expect(await hotListPage.getHolidayTitle()).to.equal(this.chosenHoliday)
+  expect(await hotListPage.getHolidayTitle()).to.equal(this.chosenHoliday);
 });

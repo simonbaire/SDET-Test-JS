@@ -18,7 +18,7 @@ export class WebdriverUtils {
   }
 
   findElement = async (locator: Locator): Promise<WebElementPromise> =>
-    this.driver.findElement(locator)
+    this.driver.findElement(locator);
 
   findElements = async (locator: Locator): Promise<any> =>
     await this.driver.findElements(locator);
@@ -34,7 +34,7 @@ export class WebdriverUtils {
 
   clear = async (locator: Locator) => {
     const element = await this.findElement(locator);
-    await element.clear()
+    await element.clear();
   };
 
   waitForElementEnabled = async (locator: Locator): Promise<any> =>

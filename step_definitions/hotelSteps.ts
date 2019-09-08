@@ -41,5 +41,5 @@ When(/^I proceed to hotel options page$/, async function (this: World) {
 });
 
 Then(/^I ca see my board basis$/, async function (this: World) {
-  expect(await hotelDetailPage.getHotelBoardBasis()).to.include('Room Only')
+  expect(await hotelDetailPage.getHotelBoardBasis()).to.include('Room Only');
 });
