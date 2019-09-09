@@ -9,6 +9,7 @@ export const capabilities = profile.configuration.capabilities;
 
 Before(async function(this: World) {
   this.driver = seleniumDriver;
+  await this.driver.manage().window().setSize(1420,900);
 });
 
 BeforeAll(async () => {
